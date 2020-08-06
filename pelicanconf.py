@@ -9,7 +9,6 @@ SITE_URL = ''
 PATH = 'content'
 
 TIMEZONE = 'Europe/Bucharest'
-
 DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
@@ -36,4 +35,7 @@ DEFAULT_PAGINATION = 5
 
 DEFAULT_METADATA = {
     'status': 'draft',
+    'authors': 'Botond Béres'
 }
+
+USE_FOLDER_AS_CATEGORY = True
