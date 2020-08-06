@@ -42,3 +42,5 @@ DEFAULT_METADATA = {"status": "draft", "authors": "Botond Béres"}
 USE_FOLDER_AS_CATEGORY = True
 DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = True
+
+TYPOGRIFY = True
