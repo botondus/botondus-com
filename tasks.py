@@ -22,11 +22,12 @@ CONFIG = {
     # Output path. Can be absolute or relative to tasks.py. Default: 'output'
     'deploy_path': SETTINGS['OUTPUT_PATH'],
     # Github Pages configuration
-    'github_pages_branch': 'master',
+    'github_pages_branch': 'gh-pages',
     'commit_message': "'Publish site on {}'".format(datetime.date.today().isoformat()),
     # Port for `serve`
     'port': 8000,
 }
+
 
 @task
 def clean(c):
@@ -35,20 +36,24 @@ def clean(c):
         shutil.rmtree(CONFIG['deploy_path'])
         os.makedirs(CONFIG['deploy_path'])
 
+
 @task
 def build(c):
     """Build local version of site"""
     c.run('pelican -s {settings_base}'.format(**CONFIG))
+
 
 @task
 def rebuild(c):
     """`build` with the delete switch"""
     c.run('pelican -d -s {settings_base}'.format(**CONFIG))
 
+
 @task
 def regenerate(c):
     """Automatically regenerate site upon file modification"""
     c.run('pelican -r -s {settings_base}'.format(**CONFIG))
+
 
 @task
 def serve(c):
@@ -65,16 +70,19 @@ def serve(c):
     sys.stderr.write('Serving on port {port} ...\n'.format(**CONFIG))
     server.serve_forever()
 
+
 @task
 def reserve(c):
     """`build`, then `serve`"""
     build(c)
     serve(c)
 
+
 @task
 def preview(c):
     """Build production version of site"""
     c.run('pelican -s {settings_publish}'.format(**CONFIG))
+
 
 @task
 def livereload(c):
@@ -110,6 +118,7 @@ def publish(c):
         '{} {ssh_user}@{ssh_host}:{ssh_path}'.format(
             CONFIG['deploy_path'].rstrip('/') + '/',
             **CONFIG))
+
 
 @task
 def gh_pages(c):
