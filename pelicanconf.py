@@ -44,3 +44,7 @@ DISPLAY_PAGES_ON_MENU = True
 DISPLAY_CATEGORIES_ON_MENU = True
 
 TYPOGRIFY = True
+
+# DO NOT automatically generate slugs
+# For how to write slugs see https://www.theengineeringprojects.com/2018/07/structure-blog-post-url.html
+SLUGIFY_SOURCE = ''
