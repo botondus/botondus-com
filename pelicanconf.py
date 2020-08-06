@@ -51,7 +51,7 @@ SLUGIFY_SOURCE = ''
 
 # Configure URLs
 #ARTICLE_URL = '{slug}.html'
-ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/index.html'
+#ARTICLE_SAVE_AS = '{slug}.html'
 #PAGE_URL = 'pages/{slug}.html'
 PAGE_SAVE_AS = 'pages/{slug}/index.html'
 
