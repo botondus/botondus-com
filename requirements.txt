@@ -2,3 +2,5 @@ pelican==4.2.0
 typogrify
 invoke
 livereload
+ghp-import
+
