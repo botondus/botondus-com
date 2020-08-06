@@ -2,14 +2,14 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Botond Béres'
-SITENAME = 'Botondus.com'
-SITE_URL = ''
+AUTHOR = "Botond Béres"
+SITENAME = "Botondus.com"
+SITE_URL = ""
 
-PATH = 'content'
+PATH = "content"
 
-TIMEZONE = 'Europe/Bucharest'
-DEFAULT_LANG = 'en'
+TIMEZONE = "Europe/Bucharest"
+DEFAULT_LANG = "en"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -19,23 +19,26 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (
+    ("Pelican", "http://getpelican.com/"),
+    ("Python.org", "http://python.org/"),
+    ("Jinja2", "http://jinja.pocoo.org/"),
+    ("You can modify those links in your config file", "#"),
+)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (
+    ("You can add links in your config file", "#"),
+    ("Another social link", "#"),
+)
 
 DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
 
-DEFAULT_METADATA = {
-    'status': 'draft',
-    'authors': 'Botond Béres'
-}
+DEFAULT_METADATA = {"status": "draft", "authors": "Botond Béres"}
 
 USE_FOLDER_AS_CATEGORY = True
+DISPLAY_PAGES_ON_MENU = True
+DISPLAY_CATEGORIES_ON_MENU = True
