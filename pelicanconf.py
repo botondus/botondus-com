@@ -71,4 +71,11 @@ AUTHOR_SAVE_AS = ''
 # LOAD_CONTENT_CACHE = False
 
 PLUGIN_PATHS = ['/Users/beresbotond/Projects/pelican-plugins']
-PLUGINS = []
+PLUGINS = ['pelican-ert']
+
+# Estimated reading time setup
+# TODO - Need to add it to article.html template
+# https://github.com/nogaems/pelican-ert/tree/f694b99035a859c4bf1d63edc7d127ff778c2db8
+ERT_WPM = 200
+ERT_FORMAT = '{time} read'
+ERT_INT = True
