@@ -75,7 +75,9 @@ PLUGINS = [
     'pelican-ert',
     'optimize_images',
     # Support article series: https://github.com/getpelican/pelican-plugins/tree/master/series
-    'series'
+    'series',
+    # Create share URLs for article: https://github.com/getpelican/pelican-plugins/tree/master/share_post
+    'share_post'
 ]
 
 # Estimated reading time setup
