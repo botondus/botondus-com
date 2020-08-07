@@ -71,7 +71,7 @@ AUTHOR_SAVE_AS = ''
 # LOAD_CONTENT_CACHE = False
 
 PLUGIN_PATHS = ['/Users/beresbotond/Projects/pelican-plugins']
-PLUGINS = ['pelican-ert']
+PLUGINS = ['pelican-ert', 'optimize_images']
 
 # Estimated reading time setup
 # TODO - Need to add it to article.html template
