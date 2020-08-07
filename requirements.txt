@@ -4,4 +4,5 @@ invoke
 livereload
 ghp-import
 css-html-js-minify
+beautifulsoup4
 
