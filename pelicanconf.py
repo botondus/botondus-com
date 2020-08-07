@@ -69,3 +69,6 @@ AUTHOR_SAVE_AS = ''
 # not be visible. In such cases disable caching with
 # LOAD_CONTENT_CACHE = False or use the --ignore-cache command-line switch.
 # LOAD_CONTENT_CACHE = False
+
+PLUGIN_PATHS = ['/Users/beresbotond/Projects/pelican-plugins']
+PLUGINS = []
