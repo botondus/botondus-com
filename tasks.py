@@ -17,15 +17,21 @@ LOCAL_SETTINGS = get_settings_from_file(SETTINGS_FILE_BASE)
 SETTINGS.update(LOCAL_SETTINGS)
 
 CONFIG = {
-    'settings_base': SETTINGS_FILE_BASE,
-    'settings_publish': 'publishconf.py',
+    'settings_base':
+    SETTINGS_FILE_BASE,
+    'settings_publish':
+    'publishconf.py',
     # Output path. Can be absolute or relative to tasks.py. Default: 'output'
-    'deploy_path': SETTINGS['OUTPUT_PATH'],
+    'deploy_path':
+    SETTINGS['OUTPUT_PATH'],
     # Github Pages configuration
-    'github_pages_branch': 'gh-pages',
-    'commit_message': "'Publish site on {}'".format(datetime.date.today().isoformat()),
+    'github_pages_branch':
+    'gh-pages',
+    'commit_message':
+    "'Publish site on {}'".format(datetime.date.today().isoformat()),
     # Port for `serve`
-    'port': 8000,
+    'port':
+    8000,
 }
 
 
@@ -44,6 +50,12 @@ def build(c):
 
 
 @task
+def buildprod(c):
+    """Build local version of site"""
+    c.run('pelican -s {settings_publish}'.format(**CONFIG))
+
+
+@task
 def rebuild(c):
     """`build` with the delete switch"""
     c.run('pelican -d -s {settings_base}'.format(**CONFIG))
@@ -58,14 +70,11 @@ def regenerate(c):
 @task
 def serve(c):
     """Serve site at http://localhost:$PORT/ (default port is 8000)"""
-
     class AddressReuseTCPServer(RootedHTTPServer):
         allow_reuse_address = True
 
-    server = AddressReuseTCPServer(
-        CONFIG['deploy_path'],
-        ('', CONFIG['port']),
-        ComplexHTTPRequestHandler)
+    server = AddressReuseTCPServer(CONFIG['deploy_path'], ('', CONFIG['port']),
+                                   ComplexHTTPRequestHandler)
 
     sys.stderr.write('Serving on port {port} ...\n'.format(**CONFIG))
     server.serve_forever()
@@ -112,12 +121,10 @@ def livereload(c):
 def publish(c):
     """Publish to production via rsync"""
     c.run('pelican -s {settings_publish}'.format(**CONFIG))
-    c.run(
-        'rsync --delete --exclude ".DS_Store" -pthrvz -c '
-        '-e "ssh -p {ssh_port}" '
-        '{} {ssh_user}@{ssh_host}:{ssh_path}'.format(
-            CONFIG['deploy_path'].rstrip('/') + '/',
-            **CONFIG))
+    c.run('rsync --delete --exclude ".DS_Store" -pthrvz -c '
+          '-e "ssh -p {ssh_port}" '
+          '{} {ssh_user}@{ssh_host}:{ssh_path}'.format(
+              CONFIG['deploy_path'].rstrip('/') + '/', **CONFIG))
 
 
 @task
