@@ -7,7 +7,7 @@ Status: published
 
 In today’s world where you use the Internet every day for many different purposes, you end up using dozens or hundreds of different websites where you need to register an online account in order to properly use it: forums, online course platforms, email providers, social media, online banking and so on. This requires an email and a password for each online account.
 
-![Locks]({static}/images/mackenzie-marco-8qpfv44zkmc-unsplash.jpg "a pile of many locks")
+![Locks]({static}/images/mackenzie-marco-8qpFv44zkMc-unsplash.jpg "a pile of many locks")
 
 Photo by [Mackenzie Marco](https://unsplash.com/@kenziem?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)</a> on [Unsplash](https://unsplash.com/s/photos/lock?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
