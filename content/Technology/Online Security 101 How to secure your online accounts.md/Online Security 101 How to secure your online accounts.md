@@ -2,11 +2,12 @@ Title: Online Security 101: How to secure your online accounts
 Date: 2020-08-08 17:00
 Slug: online-security-101-online-accounts
 Tags: passwords, online, security, lastpass, two-factor authentication
+Category: Technology
 Status: published
 
 In today’s world where you use the Internet every day for many different purposes, you end up using dozens or hundreds of different websites where you need to register an online account in order to properly use it: forums, online course platforms, email providers, social media, online banking and so on. This requires an email and a password for each online account.
 
-![Locks](mackenzie-marco-8qpfv44zkmc-unsplash.jpg "a pile of many locks")
+![Locks]({static}/images/mackenzie-marco-8qpfv44zkmc-unsplash.jpg "a pile of many locks")
 
 Photo by Mackenzie Marco on Unsplash
 
