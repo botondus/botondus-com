@@ -15,21 +15,21 @@ Often what you end up doing however, is that you think of a few passwords (or ev
 
 To keep these online accounts really safe from malicious attackers you need to:
 
-• Use a different password for each online account
-• Use strong passwords
-• Use two-factor authentication on accounts where it is available
+- Use a different password for each online account
+- Use strong passwords
+- Use two-factor authentication on accounts where it is available
 
 ## You need many different passwords
 
 So if you come up with a new and different password for each of your online accounts, then how do you remember all of them? This is where a password manager comes in. It will not only save all your passwords for your online accounts, it will also automatically generate new and strong passwords for you when you register a new account. So you don’t have to wrack your brain about coming up with them.
 
-My choice of password manager for this is LastPass (https://www.lastpass.com). There are of course other good options out there, but this is what I have been personally using for years now and I am very happy with it. It will run in any major browser you are using on your computer and also on your smartphone as an app so you always have access to it. And you can get started with it for free. In addition to simply storing credentials, you can also save all kinds of Secure Notes onto LastPass, for example: credit card PINs, bank account numbers, WI-FI passwords, or anything else important but private, that you would like to remember.
+My choice of password manager for this is [LastPass](https://www.lastpass.com). There are of course other good options out there, but this is what I have been personally using for years now and I am very happy with it. It will run in any major browser you are using on your computer and also on your smartphone as an app so you always have access to it. And you can get started with it for free. In addition to simply storing credentials, you can also save all kinds of Secure Notes onto LastPass, for example: credit card PINs, bank account numbers, WI-FI passwords, or anything else important but private, that you would like to remember.
 
 ## You need to remember a few strong passwords
 
 Your password manager will remember the password for all your online accounts but you need to remember the master password of your password manager itself. And this needs to be a very strong password indeed. However strong passwords are generally hard to remember because they need to be long first and foremost.
 
-What I recommend is that you come up with a long, full sentence that is meaningful to you so that you can remember it. And ideally have at least one number as well in your sentence. Then write that without any spaces. You can find a more in-depth article with some good ideas on how to create a strong password at HowToGeek (https://www.howtogeek.com/195430/how-to-create-a-strong-password-and-remember-it/)
+What I recommend is that you come up with a long, full sentence that is meaningful to you so that you can remember it. And ideally have at least one number as well in your sentence. Then write that without any spaces. You can find a more in-depth article with some good ideas on how to create a strong password at [HowToGeek](https://www.howtogeek.com/195430/how-to-create-a-strong-password-and-remember-it/)
 
 In addition to the password for LastPass, I would also recommend that you similarly remember a strong password for your primary email account (even though that will be also saved into LastPass). Because through your email you can restore access to any other online account that you need, but it’s more problematic if you lose access to your email account as well because you can’t get into LastPass. Access to your email will also help you to regain access to LastPass if you forget the master password. And the vice versa is obviously true. So it’s a bit of a safety measure, you rely on 2 strong passwords, not just one.
 
