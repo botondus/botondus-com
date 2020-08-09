@@ -1,4 +1,4 @@
-Title: Online Security 101: How to protect your privacy on the internet with a VPN
+Title: Online Security 101: How to protect your privacy with a VPN
 Date: 2020-08-09 15:26
 Slug: online-security-101-privacy-vpn
 Tags: online, security, privacy, vpn, protect
