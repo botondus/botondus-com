@@ -9,7 +9,7 @@ In today’s world where you use the Internet every day for many different purpo
 
 ![Locks]({static}/images/mackenzie-marco-8qpFv44zkMc-unsplash.jpg "a pile of many locks")
 
-Photo by [Mackenzie Marco](https://unsplash.com/@kenziem?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)</a> on [Unsplash](https://unsplash.com/s/photos/lock?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+_Photo by [Mackenzie Marco](https://unsplash.com/@kenziem?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)</a> on [Unsplash](https://unsplash.com/s/photos/lock?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
 
 Often what you end up doing however, is that you think of a few passwords (or even just one) and then you re-use them on many different sites. This is a dangerous practice because when attackers breach the security of one particular website and your password gets exposed they will be able to use it to access many other online accounts where you kept using the same password.
 
