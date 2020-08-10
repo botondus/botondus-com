@@ -7,7 +7,7 @@ Status: published
 
 When you use a computer regularly, over time, you will accumulate lots of files and documents which are meaningful to you. It could be personal documents, digital products that you have downloaded and saved, research material, articles, and so on. But is all this data safe and secure? It would probably be very unpleasant if one day you lost all these files or if someone got access to them.
 
-![][alex-machado-80sv993luki-unsplash]
+![Cloud][alex-machado-80sv993luki-unsplash]
 
 _Photo by_ [_Alex Machado_](https://unsplash.com/@alexmachado?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) _on_ [_Unsplash_](https://unsplash.com/s/photos/cloud?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
@@ -58,4 +58,4 @@ I hope that I have persuaded you to set up an automated **cloud storage** back
 
 Now go on and back up your data!
 
-[alex-machado-80sv993luki-unsplash]: {static}/images/alex-machado-80sv993lUKI-unsplash.jpg
+[alex-machado-80sv993luki-unsplash]: {static}/images/alex-machado-80sv993lUKI-unsplash.jpg "Cloud in the sky"
