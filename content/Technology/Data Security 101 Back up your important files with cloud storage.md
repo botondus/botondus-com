@@ -46,7 +46,7 @@ Once you have chosen a provider, you will need to:
 - wait for the initial sync to happen
 - install on additional devices as needed
 
-One caveat with **zero-knowledge encryption** is that you will need to remember your password, or you may not be able to download your data anymore. I highly recommend that you add it to a password manager.
+One caveat with **zero-knowledge encryption** is that you will need to remember your password, or you may not be able to download your data anymore. I highly recommend that you add it to a [password manager]({filename}/Technology/Online_Security_101_How_to_secure_your_online_accounts.md).
 
 Once you have your application going on your computer, it might take a long time for it to upload all your files to the cloud. It depends on how much you are backing up and the upload speed of your internet connection. Also, it will take time to fully download on a second device, if you need to do that. But it’s done automatically, and it will be kept up to date with new files automatically and painlessly.
 
