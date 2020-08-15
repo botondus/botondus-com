@@ -105,3 +105,5 @@ MENU_INTERNAL_PAGES = (
     ('Categories', CATEGORIES_URL, CATEGORIES_SAVE_AS),
     ('Archives', ARCHIVES_URL, ARCHIVES_SAVE_AS),
 )
+
+DISQUS_SITENAME = 'botondus-com'
