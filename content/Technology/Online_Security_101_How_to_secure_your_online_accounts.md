@@ -45,6 +45,6 @@ For really important and highly used online accounts, like Google, Facebook, Twi
 
 # Conclusion
 
-With all of the above sorted out you have taken a huge leap in securing your online presence. There is more to online security than this but this is a really fundamental and crucial step. Do not procrastinate on it! I wish you all the best and stay safe online.
+With all of the above sorted out, you have taken a great leap towards securing your online presence. There is a lot more to online security than this, but this is a fundamental and crucial step. Do not procrastinate on it! I wish you all the best and stay safe online.
 
 [mackenzie-marco-8qpfv44zkmc-unsplash]: {static}/images/mackenzie-marco-8qpFv44zkMc-unsplash.jpg "a pile of many locks"
