@@ -9,7 +9,7 @@ Status: published
     }
 </style>
 
-<img id="profile" src="/images/profile_2020_cropped.png" width="254" height="254" />
+<img id="profile" src="{static}/images/profile_2020_cropped.png" width="254" height="254" />
 
 Botond Béres is an experienced software professional, a spiritual seeker, and a writer. He was born and raised in Romania in the city of Mediaș. His first serious foray into the world of computer programming started at age 14 when he joined a high school class with a mathematics - informatics specialization. He was blessed with a great informatics teacher as well, so he worked diligently with the material and excelled at it throughout high school. After high school, he got admitted to one of the best **Computer Science** universities in the country, but he decided to drop out during the first year. It was the continuation of a rebellious phase that started in high school already, rejecting the structure of the university. Also, he got highly involved in playing a Massively Multiplayer Online video game called Eve Online.
 
