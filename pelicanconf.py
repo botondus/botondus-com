@@ -40,8 +40,10 @@ DEFAULT_PAGINATION = 5
 DEFAULT_METADATA = {"status": "draft", "authors": "Botond Béres"}
 
 USE_FOLDER_AS_CATEGORY = True
-DISPLAY_PAGES_ON_MENU = True
+DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = True
+
+MENUITEMS = ()
 
 TYPOGRIFY = True
 
@@ -102,6 +104,7 @@ ARCHIVES_SAVE_AS = 'archives/index.html'
 MENU_INTERNAL_PAGES = (
     #('Tags', TAGS_URL, TAGS_SAVE_AS),
     #('Authors', AUTHORS_URL, AUTHORS_SAVE_AS),
+    ('About', 'pages/about/index.html', 'pages/about/index.html'),
     ('Categories', CATEGORIES_URL, CATEGORIES_SAVE_AS),
     ('Archives', ARCHIVES_URL, ARCHIVES_SAVE_AS),
 )
