@@ -5,3 +5,4 @@ livereload
 ghp-import
 beautifulsoup4
 yuicompressor
+webassets
