@@ -94,6 +94,12 @@ def preview(c):
 
 
 @task
+def gh_custom_domain(c):
+    """Set the custom domain CNAME required for Github Pages"""
+    c.run('cp ./content/CNAME ./output/')
+
+
+@task
 def livereload(c):
     """Automatically reload browser tab upon file modification."""
     from livereload import Server
@@ -131,6 +137,7 @@ def publish(c):
 def gh_pages(c):
     """Publish to GitHub Pages"""
     preview(c)
+    gh_custom_domain(c)
     c.run('ghp-import -b {github_pages_branch} '
           '-m {commit_message} '
           '{deploy_path} -p'.format(**CONFIG))
