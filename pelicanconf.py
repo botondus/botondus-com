@@ -66,6 +66,7 @@ MONTH_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/index.html'
 # set the corresponding *_SAVE_AS setting to '' to prevent the relevant page
 # from being generated.
 AUTHOR_SAVE_AS = ''
+AUTHOR_URL = ''
 
 # When experimenting with different plugins (especially the ones that deal
 # with metadata and content) caching may interfere and the changes may
@@ -104,6 +105,9 @@ CATEGORIES_URL = 'categories'
 CATEGORIES_SAVE_AS = 'categories/index.html'
 ARCHIVES_URL = 'archives'
 ARCHIVES_SAVE_AS = 'archives/index.html'
+
+# Removed authors template
+DIRECT_TEMPLATES = ['index', 'categories', 'tags', 'archives']
 
 # use those if you want pelican standard pages to appear in your menu
 MENU_INTERNAL_PAGES = (
