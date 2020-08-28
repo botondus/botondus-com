@@ -3,10 +3,15 @@ Slug: about
 Status: published
 
 <style type="text/css" rel="stylesheet">
-#profile { 
+img#profile { 
     float: right;
     margin-left: 10px;
     }
+
+/** For some reason this is not present on this page **/
+.section p, .section ul, .section ol, .section li {
+    margin-bottom: .5em;
+}
 </style>
 
 <img id="profile" src="{static}/images/profile_2020_cropped.png" width="254" height="254" />
