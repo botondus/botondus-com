@@ -116,3 +116,5 @@ MENU_INTERNAL_PAGES = (
 
 # Theme specific settings
 TWITTER_USERNAME = "Botondus"
+# TODO
+#SITESUBTITLE = "This is a subtitle"
