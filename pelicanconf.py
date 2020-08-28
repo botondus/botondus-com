@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import bulrush
 
 AUTHOR = "Botond Béres"
 SITENAME = "Thoughts on Life and Technology"
@@ -20,16 +21,16 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    ("Pelican", "http://getpelican.com/"),
-    ("Python.org", "http://python.org/"),
-    ("Jinja2", "http://jinja.pocoo.org/"),
-    ("You can modify those links in your config file", "#"),
+    # ("Pelican", "http://getpelican.com/"),
+    # ("Python.org", "http://python.org/"),
+    # ("Jinja2", "http://jinja.pocoo.org/"),
+    # ("You can modify those links in your config file", "#"),
 )
 
 # Social widget
 SOCIAL = (
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
+    ("LinkedIn", "https://www.linkedin.com/in/beresbotond/"),
+    ("Twitter", "https://twitter.com/Botondus"),
 )
 
 DEFAULT_PAGINATION = 5
@@ -43,7 +44,7 @@ USE_FOLDER_AS_CATEGORY = True
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = True
 
-MENUITEMS = ()
+MENUITEMS = (('About', 'pages/about/'), )
 
 TYPOGRIFY = True
 
@@ -79,7 +80,8 @@ PLUGINS = [
     # Support article series: https://github.com/getpelican/pelican-plugins/tree/master/series
     'series',
     # Create share URLs for article: https://github.com/getpelican/pelican-plugins/tree/master/share_post
-    'share_post'
+    'share_post',
+    'assets'  # required by bulrush theme
 ]
 
 # Estimated reading time setup
@@ -89,7 +91,10 @@ ERT_WPM = 200
 ERT_FORMAT = '{time} read'
 ERT_INT = True
 
-THEME = "/Users/beresbotond/Projects/pelican-themes/blue-penguin"
+#THEME = "/Users/beresbotond/Projects/pelican-themes/bulrush/bulrush/"
+THEME = bulrush.PATH
+JINJA_ENVIRONMENT = bulrush.ENVIRONMENT
+JINJA_FILTERS = bulrush.FILTERS
 
 TAGS_URL = 'tags'
 TAGS_SAVE_AS = 'tags/index.html'
@@ -109,4 +114,7 @@ MENU_INTERNAL_PAGES = (
     ('Archives', ARCHIVES_URL, ARCHIVES_SAVE_AS),
 )
 
-DISQUS_SITENAME = 'botondus-com'
+# Theme specific settings
+TWITTER_USERNAME = "Botondus"
+# TODO
+#SITESUBTITLE = "This is a subtitle"
