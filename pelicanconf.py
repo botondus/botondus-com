@@ -114,4 +114,5 @@ MENU_INTERNAL_PAGES = (
     ('Archives', ARCHIVES_URL, ARCHIVES_SAVE_AS),
 )
 
-DISQUS_SITENAME = 'botondus-com'
+# Theme specific settings
+TWITTER_USERNAME = "Botondus"
