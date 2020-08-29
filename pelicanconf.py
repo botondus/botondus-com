@@ -44,7 +44,9 @@ USE_FOLDER_AS_CATEGORY = True
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = True
 
-MENUITEMS = (('About', 'pages/about/'), )
+MENUITEMS = (('About', 'pages/about.html'),
+             #('Archives', 'archives')
+             )
 
 TYPOGRIFY = True
 
@@ -56,7 +58,7 @@ SLUGIFY_SOURCE = ''
 #ARTICLE_URL = '{slug}.html'
 #ARTICLE_SAVE_AS = '{slug}.html'
 #PAGE_URL = 'pages/{slug}.html'
-PAGE_SAVE_AS = 'pages/{slug}/index.html'
+#PAGE_SAVE_AS = 'pages/{slug}/index.html'
 
 YEAR_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/index.html'
 MONTH_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/index.html'
