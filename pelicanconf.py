@@ -44,7 +44,9 @@ USE_FOLDER_AS_CATEGORY = True
 DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = True
 
-MENUITEMS = (('About', 'pages/about.html'), )
+MENUITEMS = (('About', 'pages/about.html'),
+             #('Archives', 'archives')
+             )
 
 TYPOGRIFY = True
 
