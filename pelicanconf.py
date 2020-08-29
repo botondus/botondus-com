@@ -33,7 +33,7 @@ SOCIAL = (
     ("Twitter", "https://twitter.com/Botondus"),
 )
 
-DEFAULT_PAGINATION = 5
+DEFAULT_PAGINATION = 7  # Adapted to Bulrush theme
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
